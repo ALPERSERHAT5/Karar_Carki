@@ -1,17 +1,87 @@
-# karar_carki
+#  Karar Çarkı
 
-A new Flutter project.
+Flutter ile geliştirilmiş, günlük karar verme ve rastgele sonuç üretme araçlarını tek bir uygulamada bir araya getiren mobil uygulama.
 
-## Getting Started
+##  Özellikler
 
-This project is a starting point for a Flutter application.
+*  **Karar Çarkı** — Seçeneklerinizi ekleyin ve rastgele bir seçim yapın.
+*  **Yazı Tura** — Yazı veya tura sonucu üretin.
+*  **Jackpot** — Rastgele jackpot sonuçları oluşturun.
+*  **Rastgele Renk Üretici** — Rastgele renkler oluşturun.
+*  **Rastgele Sayı Üretici** — Belirlenen aralıkta rastgele sayılar üretin.
+*  **Zar Atma** — Rastgele zar sonucu üretin.
 
-A few resources to get you started if this is your first Flutter project:
+##  Kullanılan Teknolojiler
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* Flutter
+* Dart
+* Material Design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  APK ile Çalıştırma
+
+Uygulamanın hazır APK dosyasını indirerek Android cihazınızda doğrudan çalıştırabilirsiniz.
+
+1. Bu repository'nin **Releases** bölümüne gidin.
+2. En son sürümde bulunan `.apk` dosyasını indirin.
+3. APK dosyasını Android cihazınıza aktarın.
+4. APK dosyasını açarak uygulamayı yükleyin.
+
+> Not: Android, Google Play Store dışından indirilen uygulamaları yüklemek için izin isteyebilir.
+
+##  Kaynak Koddan Çalıştırma
+
+Projeyi bilgisayarınızda çalıştırmak için:
+
+### Gereksinimler
+
+* Flutter SDK
+* Dart SDK
+* Android Studio veya Visual Studio Code
+* Android Emulator veya fiziksel Android cihaz
+
+### Kurulum
+
+Repository'yi klonlayın:
+
+```bash
+git clone https://github.com/ALPERSERHAT5/Karar_Carki.git
+```
+
+Proje klasörüne girin:
+
+```bash
+cd Karar_Carki
+```
+
+Gerekli paketleri yükleyin:
+
+```bash
+flutter pub get
+```
+
+Uygulamayı çalıştırın:
+
+```bash
+flutter run
+```
+
+##  APK Oluşturma
+
+Kendi APK dosyanızı oluşturmak için:
+
+```bash
+flutter build apk --release
+```
+
+Oluşturulan APK genellikle şu klasörde bulunur:
+
+```text
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+##  Geliştirici
+
+**Serhat Alper**
+
+Bu proje Flutter öğrenme ve mobil uygulama geliştirme sürecimin bir parçası olarak geliştirilmiştir.
+
